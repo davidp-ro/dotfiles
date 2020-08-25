@@ -1,12 +1,17 @@
 #!/bin/bash
 
-# Custom Rofi Script
+# ======================
+# Small Rofi menu
+# ======================
+# Original: @adi1090x
+# Customized: @davidp-ro
+# ======================
 
 BORDER="#1F1F1F"
 SEPARATOR="#1F1F1F"
 FOREGROUND="#A9ABB0"
-BACKGROUND="#1F1F1F"
-BACKGROUND_ALT="#252525"
+BACKGROUND="#dd1F1F1F"
+BACKGROUND_ALT="#dd252525"
 HIGHLIGHT_BACKGROUND="#ddc0ca33"
 HIGHLIGHT_FOREGROUND="#FFFFFF"
 
@@ -61,3 +66,6 @@ rofi -no-lazy-grab -show drun \
 # color normal = background, foreground, background-alt, highlight-background, highlight-foreground
 # color active = background, foreground, background-alt, highlight-background, highlight-foreground
 # color urgent = background, foreground, background-alt, highlight-background, highlight-foreground
+
+# == EOF ==
+
