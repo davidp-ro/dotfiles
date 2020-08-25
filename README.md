@@ -1,11 +1,12 @@
 # dotfiles
 
-Personal dotfiles
+Personal dotfiles | Currently using Ubuntu 20.04 | i3-gaps
 
 ---
 
 ### Update files:
-`./update.sh
+Just run `./update.sh`
+
 *You might need to chnage paths, check the default ones in `update.sh`!*
 
 ### What files are saved:
