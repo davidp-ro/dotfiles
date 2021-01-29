@@ -18,9 +18,11 @@ Lenovo 15ARE03: Ubuntu 20.04.2 (GNOME) & Windows 10
 * grub - Grub settings (`/etc/default/grub`)
 
 * gnome-themes - Theme(s) for gnome, also background(s)
+* grub-themes - Theme(s) for grub (`/usr/share/grub/themes/<theme_name>`)
 
 ### I currently use:
 - Theme: Nordic Darker
+- GrubTheme: argon with custom background
 - Icons: McMuse Circle Black Dark
 - Font:
     - IBM Plex
