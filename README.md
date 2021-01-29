@@ -12,7 +12,7 @@ Lenovo 15ARE03: Ubuntu 20.04.2 (GNOME) & Windows 10
 
 ### Folders
 
-* win-term - Windows terminal settings
+* win-term - Windows terminal settings (`C:\Users\<username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState`)
 * nvim - Neovim settings (`.config/nvim/init.vim`)
 * bash - Bash settings (`.bashrc`)
 * grub - Grub settings (`/etc/default/grub`)
