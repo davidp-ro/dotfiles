@@ -1,0 +1,98 @@
+{
+  // VS Code:
+  "git.ignoreMissingGitWarning": true,
+  "editor.multiCursorModifier": "alt",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.wrapTabs": true,
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "vs-nomo-dark",
+  "glassit.alpha": 255,
+  "editor.fontFamily": "DM Mono",
+  "customizeUI.font.regular": "DM Sans",
+  "customizeUI.font.monospace": "DM Mono",
+  "editor.fontWeight": "400",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 20,
+  "todohighlight.isEnable": true,
+  "editor.fontLigatures": true,
+  "editor.rulers": [80],
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "editor.suggestSelection": "first",
+  "workbench.colorCustomizations": {
+    "contrastBorder": "#16161C"
+  },
+  "gruvboxMaterial.darkContrast": "hard",
+  "gruvboxMaterial.darkWorkbench": "flat",
+
+  // Customize UI:
+  "customizeUI.activityBar": "bottom",
+
+  //Terminal settings:
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.fontFamily": "DM Mono",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 0,
+  "go.useLanguageServer": true,
+
+  // Python
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": true,
+  "python.languageServer": "Pylance",
+  "python.defaultInterpreterPath": "C:\\Program Files\\Python37\\python.exe",
+  "autoDocstring.docstringFormat": "google",
+  "dart.flutterSdkPath": "C:\\src\\flutter",
+  "[dart]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+
+  // Web:
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "kite.showWelcomeNotificationOnStartup": false,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "svelte"
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+"cmake.configureOnOpen": true,
+"window.zoomLevel": 0.2676050217395348,
+  "cmake.generator": "NMake Makefiles",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "explorer.compactFolders": false
+}

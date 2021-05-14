@@ -1,0 +1,48 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+      "key": "f6",
+      "command": "workbench.action.debug.continue",
+      "when": "inDebugMode"
+  },
+  {
+      "key": "f5",
+      "command": "-workbench.action.debug.continue",
+      "when": "inDebugMode"
+  },
+  {
+      "key": "ctrl+\\",
+      "command": "workbench.action.showCommands"
+  },
+  {
+      "key": "ctrl+shift+p",
+      "command": "-workbench.action.showCommands"
+  },
+  {
+      "key": "f5",
+      "command": "workbench.action.tasks.build"
+  },
+  {
+      "key": "ctrl+shift+b",
+      "command": "-workbench.action.tasks.build"
+  },
+  {
+      "key": "f6",
+      "command": "-workbench.action.debug.pause",
+      "when": "debugState == 'running'"
+  },
+  {
+      "key": "f6",
+      "command": "workbench.action.debug.start",
+      "when": "!inDebugMode"
+  },
+  {
+      "key": "f5",
+      "command": "-workbench.action.debug.start",
+      "when": "!inDebugMode"
+  },
+  {
+      "key": "ctrl+alt+s",
+      "command": "workbench.action.toggleMultiCursorModifier"
+  }
+]
